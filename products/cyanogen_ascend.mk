@@ -5,7 +5,7 @@ $(call inherit-product, device/huawei/ascend/ascend.mk)
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
 
 # Include GSM stuff
-#$(call inherit-product, vendor/cyanogen/products/gsm.mk)
+$(call inherit-product, vendor/cyanogen/products/gsm.mk)
 
 #
 # Setup device specific product configuration.
