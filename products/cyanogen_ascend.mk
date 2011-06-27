@@ -15,7 +15,7 @@ PRODUCT_BRAND := huawei
 PRODUCT_DEVICE := ascend
 PRODUCT_MODEL := M860
 PRODUCT_MANUFACTURER := Huawei
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=huawei_ascend TARGET_DEVICE=ascend BUILD_ID=GRJ22 BUILD_DISPLAY_ID=GRJ22 BUILD_FINGERPRINT=google/soju/crespo:2.3.4/GRJ22/121341:user/release-keys PRIVATE_BUILD_DESC="user 2.3.4 GRJ22 121341 release-keys" BUILD_NUMBER=121341
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=huawei_ascend TARGET_DEVICE=ascend BUILD_ID=GRJ22 BUILD_DISPLAY_ID=GRJ22 BUILD_FINGERPRINT=google/soju/crespo:2.3.4/GRJ22/121341:user/release-keys PRIVATE_BUILD_DESC="user 2.3.4 GRJ22 121341 release-keys"
 
 #PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/cyanogen/prelink-linux-arm-ascend.map
 
@@ -31,7 +31,7 @@ else
             ro.modversion=CM-7.1.0-RC1-Ascend
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CM7.1-RC1-Ascend-BOBZ-$(shell date +%m%d%Y)
+            ro.modversion=CM7.1-RC1-Ascend-BobZhome-$(shell date +%m%d%Y)
     endif
 endif
 
@@ -40,4 +40,6 @@ endif
 #
 PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/mdpi/media/bootanimation.zip:system/media/bootanimation.zip
- 
+    vendor/cyanogen/prebuilt/mdpi/media/follow.ogg:system/media/audio/ringtones/follow.ogg
+    vendor/cyanogen/prebuilt/mdpi/media/somebodys.ogg:system/media/audio/ringtones/somebodys.ogg
+
