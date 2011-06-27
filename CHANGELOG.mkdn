@@ -15,6 +15,7 @@ Maintainers:
 * Nexus S: Koush
 * Droid: cvpcs, mtwebster, Koush
 * Dream/Sapphire: Sileht, Wes Garner, Cyanogen
+* Eris: Workshed, Conap
 * Hero: Esa Laukkanen (GSM), Darchstar (CDMA)
 * Desire (GSM/CDMA): Kali-, Defer
 * Incredible: jistone, slayher, Koush
@@ -41,6 +42,7 @@ Maintainers:
 * Galaxy S (GT-I9000): coolya, codeworkx, atinm, GuiperPT, Unhelpful
 * Captivate (SGH-I896/SGH-I897): atinm, Unhelpful, coolya, codeworkx
 * Vibrant (SGH-T959): coolya, atinm, codeworkx, Unhelpful
+* Incredible S: Kali-, attn1
 
 Translators:
 ------------
@@ -83,6 +85,7 @@ CHANGELOG
 * Common: Option to hide hold button during call - Roberto Leinardi
 * Common: Allow using wildcards for call blacklisting - Nihanth Subramanya
 * Common: Option to allow in-call lockscreen to match main lockscren - Sven Dawitz
+* Common: Option to notify about incoming call only in background when screen is on - Pavel Kucera
 * Common: ADWLauncher- Transitions, catalog improvements, bugfixes - John Van Etten
 * Common: Optional GMT correction for SMS/MMS timestamps - Terry Hau
 * Common: Add FM Seek for TI devices - KalimochoAz
@@ -90,7 +93,7 @@ CHANGELOG
 * Common: Add FM seek implementation to FM application - Tom Giordano
 * Click, Motorola: Speed up photo recording - Emilio López
 * Click, Motorola: Add Geolocation to photo app - KalimochoAz
-* Vision/Glacier/Ace/Speedy: 2.6.35 kernel and updated userspace
+* Vision/Glacier/Ace/Speedy/Vivo: 2.6.35 kernel and updated userspace
 * Buzz: 2.6.35 kernel - Arne Coucheron
 
 ### 7.0.3
