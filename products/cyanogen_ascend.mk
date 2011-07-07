@@ -45,3 +45,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/mdpi/media/somebodys.ogg:system/media/audio/ringtones/somebodys.ogg
 
+# Lights and graphics
+PRODUCT_COPY_FILES += \
+    vendor/huawei/ascend/proprietary/lib/hw/gralloc.msm7k.so:system/lib/hw/gralloc.msm7k.so
+PRODUCT_COPY_FILES += \
+    vendor/huawei/ascend/proprietary/lib/hw/lights.msm7k.so:system/lib/hw/lights.msm7k.so
+
+# Proprietary RIL related
+PRODUCT_COPY_FILES += \
+    vendor/huawei/ascend/proprietary/lib/libril.so:system/lib/libril.so
+PRODUCT_COPY_FILES += \
+    vendor/huawei/ascend/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so
+
