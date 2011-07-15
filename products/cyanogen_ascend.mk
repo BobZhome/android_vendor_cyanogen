@@ -10,12 +10,19 @@ $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 #
 # Setup device specific product configuration.
 #
+# PRODUCT_NAME := cyanogen_ascend
+# PRODUCT_BRAND := huawei
+# PRODUCT_DEVICE := ascend
+# PRODUCT_MODEL := M860
+# PRODUCT_MANUFACTURER := Huawei
+# PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=huawei_ascend TARGET_DEVICE=ascend BUILD_ID=GRJ22 BUILD_DISPLAY_ID=GRJ22 BUILD_FINGERPRINT=google/soju/crespo:2.3.4/GRJ22/121341:user/release-keys PRIVATE_BUILD_DESC="user 2.3.4 GRJ22 121341 release-keys"
+
 PRODUCT_NAME := cyanogen_ascend
-PRODUCT_BRAND := huawei
+PRODUCT_BRAND := google
 PRODUCT_DEVICE := ascend
 PRODUCT_MODEL := M860
 PRODUCT_MANUFACTURER := Huawei
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=huawei_ascend TARGET_DEVICE=ascend BUILD_ID=GRJ22 BUILD_DISPLAY_ID=GRJ22 BUILD_FINGERPRINT=google/soju/crespo:2.3.4/GRJ22/121341:user/release-keys PRIVATE_BUILD_DESC="user 2.3.4 GRJ22 121341 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=sojus BUILD_ID=GRJ22 BUILD_DISPLAY_ID=GRJ22 BUILD_FINGERPRINT=google/sojus/crespo4g:2.3.4/GRJ22/121341:user/release-keys PRIVATE_BUILD_DESC="sojus-user 2.3.4 GRJ22 121341 release-keys" BUILD_NUMBER=121341
 
 #PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/cyanogen/prelink-linux-arm-ascend.map
 
