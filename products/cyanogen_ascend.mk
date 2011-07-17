@@ -57,6 +57,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/ascend/proprietary/lib/hw/gralloc.msm7k.so:system/lib/hw/gralloc.msm7k.so
 PRODUCT_COPY_FILES += \
     vendor/huawei/ascend/proprietary/lib/hw/lights.msm7k.so:system/lib/hw/lights.msm7k.so
+PRODUCT_COPY_FILES += \
+    vendor/huawei/ascend/proprietary/lib/libui.so:system/lib/libui.so
 
 # Proprietary RIL related
 PRODUCT_COPY_FILES += \
