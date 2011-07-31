@@ -1,3 +1,1 @@
-add_lunch_combo cyanogen_ascend-eng
-add_lunch_combo cyanogen_thunderc-eng
 
