@@ -1,8 +1,8 @@
 # Include the stock APNS config file instead of the dev one
 PRODUCT_COPY_FILES := \
     vendor/cyanogen/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
-    device/huawei/ascend/include/media/bootanimation.zip:system/media/bootanimation.zip \
-    device/huawei/ascend/include/media/somebodys.ogg:system/media/audio/ringtones/somebodys.ogg \
+    device/lge/thunderc/files/media/bootanimation.zip:system/media/bootanimation.zip \
+    device/lge/thunderc/files/media/somebodys.ogg:system/media/audio/ringtones/somebodys.ogg \
     $(PRODUCT_COPY_FILES)
 
 # Inherit device configuration for the thunderc.
