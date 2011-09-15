@@ -13,13 +13,13 @@
 ** distributed under the License is distributed on an "AS IS" BASIS,
 ** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 ** See the License for the specific language governing permissions and
-** limitations under the License.   <apn carrier="metropcs" mcc="310" mnc="027" apn="wap.metropcs.net" user="MDN@mymetropcs.com" password="metropcs" server="http://mms.metropcs.net/servlets/mmsc" mmsc="http://mms.metropcs.net/mmsc" mmsport="3128" type="default,supl,mms" />
+** limitations under the License.
 */
 -->
 <!-- use empty string to specify no proxy or port -->
 <apns version="6">
+  <apn carrier="MetroPCS" numeric="311660" apn="" mcc="311" mnc="660" server="null" proxy="proxy.metropcs.net" port="3128" mmsc="http://mms.metropcs.net:3128/mmsc" mmsproxy="" mmsport="" authtype="3" />
   <apn carrier="cricket" mcc="310" mnc="000" apn="" user="" password="" mmsc="http://mms.mycricket.com/servlets/mms" mmsproxy="" mmsport="80" authtype="3" proxy="" port="" type="" />
-  <apn carrier="MetroPCS" numeric="311660" apn="" mcc="310" mnc="016" user="" proxy="proxy.metropcs.net" port="3128" mmsc="http://mms.metropcs.net:3128/mmsc" mmsproxy="" mmsport="" authtype="3" />
   <apn carrier="Cosmote GR" mcc="202" mnc="01" apn="Internet" type="default,supl" />
   <apn carrier="Cosmote GR MMS" mcc="202" mnc="01" apn="Mms" mmsc="195.167.65.220:8002" mmsproxy="10.10.10.20" mmsport="8080" type="mms" />
   <apn carrier="Cosmote Wireless Internet" mcc="202" mnc="01" apn="internet" type="default,supl" />
@@ -1315,7 +1315,7 @@
   <apn carrier="Movistar UY" mcc="748" mnc="07" apn="apnumt.movistar.com.uy" user="movistar" password="movistar" type="default,supl" />
   <apn carrier="Claro UY" mcc="748" mnc="10" apn="gprs.claro.com.uy" user="ctigpr" password="ctigpr999" type="default,supl" />
   <apn carrier="Claro UY MMS" mcc="748" mnc="10" apn="mms.ctimovil.com.uy" user="ctimms" password="ctimms999" mmsc="http://mms.ctimovil.com.uy" mmsproxy="170.051.255.240" mmsport="9201" type="mms" />
-  <apn name="Wap OPT KNC" numeric="54601" mcc="546" mnc="01" apn="wap" user="Wap" server="" password="Wap123" proxy="192.168.39.101" port="3130" mmsproxy="" mmsport="" mmsprotocol="null" mmsc="" type="default,supl" />
-  <apn name="Mms OPT KNC" numeric="54601" mcc="546" mnc="01" apn="mms" user="mms" server="" password="mms123" proxy="" port="" mmsproxy="192.168.39.201" mmsport="3130" mmsprotocol="null" mmsc="http://mms.mobitag.nc/mmsc/" type="mms" />
-  <apn name="Internet OPT KNC" numeric="54601" mcc="546" mnc="01" apn="internet" user="internet" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="null" mmsc="" type="default,supl" />
+  <apn carrier="Wap OPT KNC" numeric="54601" mcc="546" mnc="01" apn="wap" user="Wap" server="" password="Wap123" proxy="192.168.39.101" port="3130" mmsproxy="" mmsport="" mmsprotocol="null" mmsc="" type="default,supl" />
+  <apn carrier="Mms OPT KNC" numeric="54601" mcc="546" mnc="01" apn="mms" user="mms" server="" password="mms123" proxy="" port="" mmsproxy="192.168.39.201" mmsport="3130" mmsprotocol="null" mmsc="http://mms.mobitag.nc/mmsc/" type="mms" />
+  <apn carrier="Internet OPT KNC" numeric="54601" mcc="546" mnc="01" apn="internet" user="internet" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="null" mmsc="" type="default,supl" />
 </apns>
