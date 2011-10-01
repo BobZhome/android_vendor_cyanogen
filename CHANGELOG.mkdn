@@ -50,13 +50,10 @@ Maintainers:
 * Xperia Arc (LT15i): Bin4ry,defer,jerpelea (FreeXperia team)
 * Xperia Neo (MT15i): Bin4ry,defer,jerpelea (FreeXperia team)
 * Xperia Play (R800i): Bin4ry,defer,jerpelea (FreeXperia team)
-<<<<<<< HEAD
-=======
 * Droid2we (Droid2 Global): RevNumbers, x13thangelx
 * V9 (ZTE Light, Optus MyTab, others): kallt_kaffe and Tom Giordano
 * Motus (Backflip) : j_r0dd, flavio_frow
 * Saga (Desire S): Nexx, SuperKid
->>>>>>> upstream/gingerbread
 
 Translators:
 ------------
@@ -82,7 +79,7 @@ CHANGELOG (notable new features)
 ---------
 
 ### 7.1.0
-* Common: Android 2.3.5 (Google)
+* Common: Android 2.3.7 (Google)
 * Common: Bluetooth mouse support - Scott Brady
 * Common: Improve notification swipe-to-clear - Evan Charlton
 * Common: Improve album-artist support in media scanner - Paul Crovella
@@ -123,7 +120,7 @@ CHANGELOG (notable new features)
 * Common: FM seek support - Emilio López, Tom Giordano
 * Common: Editable event fields in Contacts app - Danny Baumann
 * Common: Remove compromised CA from system certs - Guardian Project
-* Common: Mute camera shutter option - Danesh Mondegarian
+* Common: Mute camera shutter option - George Maizel
 * Common: Camera timer - Danesh Mondegarian
 * Common: "Mark all read" option in MMS - Vinod Surendran
 * Common: "eat" pushes fresh brunch/breakfast to device - Ricardo Cerqueira
@@ -407,5 +404,4 @@ CHANGELOG (notable new features)
 * EVO: Sprint MMS fixes - Darchstar, toastcfh
 * N1/Desire: True 720P encoding support - HTC, Cyanogen, Charan Singh, Enomther
 * Desire: Kernel base from Kali- & Defer
-
 
