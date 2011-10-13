@@ -18,7 +18,7 @@
 -->
 <!-- use empty string to specify no proxy or port -->
 <apns version="6">
-  <apn carrier="MetroPCS" numeric="311660" apn="" mcc="311" mnc="660" server="" proxy="proxy.metropcs.net" port="3128" mmsc="http://mms.metropcs.net:3128/mmsc" authtype="mms" />
+  <apn carrier="MetroPCS" numeric="311660" apn="" mcc="311" mnc="660" server="null" proxy="proxy.metropcs.net" port="3128" mmsc="http://mms.metropcs.net:3128/mmsc" mmsproxy="" mmsport="" authtype="3" />
   <apn carrier="cricket" mcc="310" mnc="000" apn="" user="" password="" mmsc="http://mms.mycricket.com/servlets/mms" mmsproxy="" mmsport="80" authtype="3" proxy="" port="" type="" />
   <apn carrier="Cosmote GR" mcc="202" mnc="01" apn="Internet" type="default,supl" />
   <apn carrier="Cosmote GR MMS" mcc="202" mnc="01" apn="Mms" mmsc="195.167.65.220:8002" mmsproxy="10.10.10.20" mmsport="8080" type="mms" />
