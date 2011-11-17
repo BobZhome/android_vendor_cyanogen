@@ -31,14 +31,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=ascend BUILD_ID=GWK74 BUILD_DISPLAY
 #
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CM7-Ascend-$(shell date +%m%d%Y)
+        ro.modversion=CM-7.2.0-RC0-Ascend-$(shell date +%m%d%Y)
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CM-7.1.0.1-Ascend
+            ro.modversion=CM-7.2.0-RC0-Ascend
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CM7.1.0.1-Ascend-BobZhome-$(shell date +%m%d%Y)
+            ro.modversion=CM-7.2.0-RC0-Ascend-BobZhome-$(shell date +%m%d%Y)
     endif
 endif
 

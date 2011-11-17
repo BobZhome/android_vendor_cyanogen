@@ -3,6 +3,8 @@ PRODUCT_COPY_FILES := \
     vendor/cyanogen/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
     device/lge/thunderc/files/media/bootanimation.zip:system/media/bootanimation.zip \
     device/lge/thunderc/files/media/somebodys.ogg:system/media/audio/ringtones/somebodys.ogg \
+    device/lge/thunderc/files/media/DroidSans.ttf:system/font/DroidSans.ttf \
+    device/lge/thunderc/files/media/DroidSans-Bold.ttf:system/font/DroidSans-Bold.ttf \
     $(PRODUCT_COPY_FILES)
 
 # Inherit device configuration for the thunderc.
@@ -29,14 +31,14 @@ PRODUCT_PACKAGES += \
 
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7.1.0.1-$(shell date +%m%d%Y)-NIGHTLY
+        ro.modversion=CyanogenMod-7.2.0-RC0-$(shell date +%m%d%Y)-NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0.1
+            ro.modversion=CyanogenMod-7.2.0-RC0
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0.1-$(PRODUCT_MODEL)-BobZhome-$(shell date +%m%d%Y)
+            ro.modversion=CyanogenMod-7.2.0-RC0-$(PRODUCT_MODEL)-BobZhome-$(shell date +%m%d%Y)
     endif
 endif
 
