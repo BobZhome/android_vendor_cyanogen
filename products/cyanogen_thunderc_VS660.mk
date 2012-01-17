@@ -3,10 +3,10 @@ SUB_MODEL := VS660
 # Include the stock APNS config file instead of the dev one
 PRODUCT_COPY_FILES := \
     vendor/cyanogen/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
-    device/lge/thunderc/files/common/media/bootanimation.zip:system/media/bootanimation.zip \
-    device/lge/thunderc/files/common/media/somebodys.ogg:system/media/audio/ringtones/somebodys.ogg \
-    device/lge/thunderc/files/common/media/DroidSans.ttf:system/fonts/DroidSans.ttf \
-    device/lge/thunderc/files/common/media/DroidSans-Bold.ttf:system/fonts/DroidSans-Bold.ttf \
+    device/lge/thunderc/files/media/bootanimation.zip:system/media/bootanimation.zip \
+    device/lge/thunderc/files/media/somebodys.ogg:system/media/audio/ringtones/somebodys.ogg \
+    device/lge/thunderc/files/media/DroidSans.ttf:system/fonts/DroidSans.ttf \
+    device/lge/thunderc/files/media/DroidSans-Bold.ttf:system/fonts/DroidSans-Bold.ttf \
     $(PRODUCT_COPY_FILES)
 
 # Inherit device configuration for the thunderc.
