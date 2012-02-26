@@ -31,14 +31,16 @@ PRODUCT_PACKAGES += \
 
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7.2.0-RC0-$(shell date +%m%d%Y)-NIGHTLY
+        CMVERSION := CyanogenMod-7.2.0-RC0-$(shell date +%m%d%Y)-NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.2.0-RC0
+            CMVERSION := CyanogenMod-7.2.0-RC0
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.2.0-RC0-$(PRODUCT_MODEL)-BobZhome-$(shell date +%m%d%Y)
+            CMVERSION := CyanogenMod-7.2.0-RC0-$(PRODUCT_MODEL)-BobZhome-$(shell date +%m%d%Y)
     endif
 endif
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.modversion=$(CMVERSION)

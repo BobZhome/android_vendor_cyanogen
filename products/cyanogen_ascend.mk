@@ -31,16 +31,19 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=ascend BUILD_ID=GWK74 BUILD_DISPLAY
 #
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CM-7.2.0-RC0-Ascend-$(shell date +%m%d%Y)
+        CMVERSION := CyanogenMod-7.2.0-RC0-$(shell date +%m%d%Y)-NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CM-7.2.0-RC0-Ascend
+            CMVERSION := CyanogenMod-7.2.0-RC0
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CM-7.2.0-RC0-Ascend-BobZhome-$(shell date +%m%d%Y)
+            CMVERSION := CyanogenMod-7.2.0-RC0-$(PRODUCT_MODEL)-BobZhome-$(shell date +%m%d%Y)
     endif
 endif
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.modversion=$(CMVERSION)
 
 #
 # Copy legend specific prebuilt files
