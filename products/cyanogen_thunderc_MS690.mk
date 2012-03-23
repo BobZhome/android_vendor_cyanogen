@@ -5,6 +5,7 @@ PRODUCT_COPY_FILES := \
     vendor/cyanogen/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
     device/lge/thunderc/files/media/bootanimation.zip:system/media/bootanimation.zip \
     device/lge/thunderc/files/media/somebodys.ogg:system/media/audio/ringtones/somebodys.ogg \
+    device/lge/thunderc/files/media/Clockopia.ttf:system/fonts/Clockopia.ttf \
     device/lge/thunderc/files/media/DroidSans.ttf:system/fonts/DroidSans.ttf \
     device/lge/thunderc/files/media/DroidSans-Bold.ttf:system/fonts/DroidSans-Bold.ttf \
     $(PRODUCT_COPY_FILES)
@@ -23,7 +24,7 @@ PRODUCT_DEVICE := thunderc
 PRODUCT_MODEL := LG-$(SUB_MODEL)
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_NAME := cyanogen_thunderc_$(SUB_MODEL)
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=thunderc BUILD_UTC_DATE=0 BUILD_ID=GWK74 BUILD_DISPLAY_ID="GWK74 $(shell date +%m%d%Y)" BUILD_FINGERPRINT=lge/lge_gelato/VM701:2.3.4/GRJ22/ZV4.19cd75186d:user/release-keys PRIVATE_BUILD_DESC="lge_gelato-user 2.3.4 GRJ22 ZV4.19cd75186d release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=thunderc BUILD_UTC_DATE=0 BUILD_ID=GWK74 BUILD_DISPLAY_ID="GWK74" BUILD_FINGERPRINT=lge/lge_gelato/VM701:2.3.4/GRJ22/ZV4.19cd75186d:user/release-keys PRIVATE_BUILD_DESC="lge_gelato-user 2.3.4 GRJ22 ZV4.19cd75186d release-keys"
 
 # Live wallpaper packages
 PRODUCT_PACKAGES += \
